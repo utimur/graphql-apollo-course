@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  max-width: 100vw;
+}
+#root {
+  width: 100vw;
+  max-width: 100vw;
+  overflow: no-display;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+}
+input:focus {
+  outline: none;
+}
+button {
+  width: fit-content;
+  background: orange;
+  color: white;
+  font-size: 24px;
+  border-radius: 8px;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.user {
+  padding: 15px;
+  border: 1px solid lightgray;
+  margin-top: 10px;
+}
